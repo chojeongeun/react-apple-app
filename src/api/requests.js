@@ -1,6 +1,6 @@
-const request = {
+const requests = {
   fetchNowPlaying: "movie/now_playing",
-  fetchTrending: "/trending/all.week",
+  fetchTrending: "/trending/all/week",
   fetchTopRated: "/movie/top_rated",
   fetchActionMovies: "/discover/movie?width_genres=28",
   fetchComedyMovies: "/discover/movie?width_genres=35",
@@ -9,4 +9,4 @@ const request = {
   fetchDocumentaries: "/discover/movie?width_genres=99",
 };
 
-export default request;
+export default requests;
