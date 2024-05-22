@@ -63,7 +63,7 @@ const Banner = () => {
               </button>
             ) : null}
           </div>
-          <p className="banner_description">{truncate(movie.overview, 100)}</p>
+          <p className="banner__description">{truncate(movie.overview, 100)}</p>
         </div>
         <div className="banner--fadeBottom" />
       </div>
@@ -78,7 +78,7 @@ const Banner = () => {
             ></Iframe>
           </HomeContainer>
         </Container>
-        <button onClick={() => setIsClicked(false)}>X</button>
+        <button onClick={() => setIsClicked(true)}>X</button>
       </>
     );
   }
